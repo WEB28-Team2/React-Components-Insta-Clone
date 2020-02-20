@@ -9,6 +9,7 @@ const Post = props => {
 
   const [likes, setLikes] = useState(0);
   const [liked, setLiked] = useState(false)
+  
   function likeHandler (likes){
     if (liked) {
       setLikes(likes - 1)
